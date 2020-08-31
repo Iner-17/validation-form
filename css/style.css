@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    height: 100%;
+    min-width: 300px;
+    line-height: 1.5em;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.container {
+    background: whitesmoke;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    background: #333;
+    height: 600px;
+    width: 550px;
+    border-radius: 20px;
+}
+
+.form-container h1 {
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    color: rgb(212, 212, 212);
+    margin-top: 50px;
+    letter-spacing: 5px;
+    font-size: 3em
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 30px;
+}
+
+.input-container input {
+    margin: 20px 0 0 0;
+    height: 40px;
+    font-size: 1.3em;
+    width: 100%;
+    padding: 0 10px;
+    color: #808080;
+    border: none;
+    border-radius: 5px;
+}
+
+.input-container #submit {
+    background-color: rgb(0, 255, 76);
+    margin-top: 40px;
+    height: 40px;
+    color: rgb(0, 0, 0);
+}
+
+.input-container p {
+    text-align-last: center;
+    color: white;
+}
+
+.input-container a {
+    color: rgb(0, 183, 255);
+}
+
+.error {
+    font-size: 0.9em;
+    color: red;
+    float: left;
+}
